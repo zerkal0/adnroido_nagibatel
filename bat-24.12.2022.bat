@@ -1,3 +1,6 @@
+@echo of
+adb.exe devices
+pause
 adb.exe shell pm uninstall -k --user 0 android.bips
 adb.exe shell pm uninstall -k --user 0 android.bookmarkprovider
 adb.exe shell pm uninstall -k --user 0 android.browser
@@ -299,3 +302,4 @@ adb.exe shell pm uninstall -k --user 0 vcast.mediamanager
 adb.exe shell pm uninstall -k --user 0 vzw.hs.android.modlite
 adb.exe shell pm uninstall -k --user 0 vzw.hss.myverizon
 adb.exe shell pm uninstall -k --user 0 wsomacp
+pause

@@ -1,3 +1,4 @@
+#!/bin/bash
 adb shell pm uninstall -k --user 0 android.bips
 adb shell pm uninstall -k --user 0 android.bookmarkprovider
 adb shell pm uninstall -k --user 0 android.browser
